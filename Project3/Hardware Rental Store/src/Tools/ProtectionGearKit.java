@@ -1,13 +1,15 @@
+package Tools;
+
 public class ProtectionGearKit extends AddOns {
     // Constructor
     public ProtectionGearKit() {
         this.name = "Protection Gear Kit";
-        setPrice();
+        setToolPrice();
     };
 
 
     @Override
-    public void setPrice() {
+    public void setToolPrice() {
         this.price = 15.0;
 
     }

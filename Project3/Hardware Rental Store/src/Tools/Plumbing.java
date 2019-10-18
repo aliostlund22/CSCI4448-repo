@@ -1,15 +1,16 @@
+package Tools;
 
 public class Plumbing extends Tool{
 
 	// Constructor
 	Plumbing(String name, String category) {
 		this.name = name;
-		this.category = category;
-		setPrice();
+		this.type = category;
+		setToolPrice();
 	}
 
 	@Override
-	public void setPrice() {
+	public void setToolPrice() {
 		this.price = 3.0;
 		
 	}

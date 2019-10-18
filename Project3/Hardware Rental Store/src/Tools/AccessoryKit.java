@@ -1,14 +1,16 @@
+package Tools;
+
 public class AccessoryKit extends AddOns {
 
     // Constructor
     public AccessoryKit() {
         this.name = "Accessory Kit";
-        setPrice();
+        setToolPrice();
     };
 
 
     @Override
-    public void setPrice() {
+    public void setToolPrice() {
         this.price = 20.0;
 
     }

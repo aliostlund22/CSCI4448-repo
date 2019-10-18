@@ -1,3 +1,5 @@
+package Customers;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,14 +67,5 @@ public class CustomerFactory {
 		ListOfCustomers.add(jason);
 
 		return this.ListOfCustomers;
-	}
-
-	// Method for printing
-	public String toString(){
-		String str = "In the customer list : ";
-		for(Customer customer: ListOfCustomers){
-			str += "( " + customer.getType() + ", " + customer.getName() + ", "+ customer.getRentalDaysPerCustomer() + " )";
-		}
-		return str;
 	}
 }

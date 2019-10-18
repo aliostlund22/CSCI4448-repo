@@ -1,16 +1,17 @@
+package Tools;
 
 public class Painting extends Tool {
 
 	// Constructor
 	Painting(String name, String category) {
 		this.name = name;
-		this.category = category;
-		setPrice();
+		this.type = category;
+		setToolPrice();
 	}
 
 
 	@Override
-	public void setPrice() {
+	public void setToolPrice() {
 		this.price = 2.0;
 		
 	}

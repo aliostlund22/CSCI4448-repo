@@ -1,14 +1,16 @@
+package Tools;
+
 public class ExtensionCord extends AddOns {
 
     // Constructor
     public ExtensionCord() {
         this.name = "Extension Cord";
-        setPrice();
+        setToolPrice();
     };
 
 
     @Override
-    public void setPrice() {
+    public void setToolPrice() {
         this.price = 5.0;
 
     }

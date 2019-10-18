@@ -1,3 +1,4 @@
+package Tools;
 
 //Decorator
 public abstract class AddOns extends Tool {
@@ -5,7 +6,7 @@ public abstract class AddOns extends Tool {
     public double price;
 
     @Override
-    public double getPrice() {
+    public double getToolPrice() {
         return price;
     }
 }
